@@ -4,6 +4,9 @@ This website is a UTA Bootcamp assignment for Week 1.
 Submitted deployed website access link:
 https://andrenrwn.github.io/urban-octo-telegram/Develop/
 
+Screenshot:
+https://andrenrwn.github.io/urban-octo-telegram/stitched-screenshot.png
+
 Source:
 https://courses.bootcampspot.com/courses/4010/assignments/59469?module_item_id=1040233
 

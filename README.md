@@ -5,7 +5,7 @@ Submitted deployed website access link:
 https://andrenrwn.github.io/urban-octo-telegram/Develop/
 
 Screenshot:
-https://andrenrwn.github.io/urban-octo-telegram/stitched-screenshot.png
+https://github.com/andrenrwn/urban-octo-telegram/blob/main/stitched-screenshot.png
 
 Source:
 https://courses.bootcampspot.com/courses/4010/assignments/59469?module_item_id=1040233

@@ -37,9 +37,10 @@ p {
     background-color: #2A607C;
 }
 
-/* Menu anchored to right side */
+/* Menu UL container */
 .header ul {
-    margin-left: auto;
+    display: flex;
+    margin-left: auto;  /* Anchor menu to the right */ 
     padding-top: 25px;
     margin-right: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -98,7 +99,7 @@ a:hover {
 .main-sections {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    min-height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0071BB;
     color: #ffffff;
@@ -157,4 +158,19 @@ a:hover {
 /* Footer emphasized text */
 .emphasis {
     font-size: 20px;
+}
+
+/* Increase the width of the benefits section if it wraps around when the screen width becomes too narrow */
+@media screen and (max-width: 816px) {
+    .benefits {
+        width: 95%;
+    }
+}
+
+/* Increase the width of the benefits section if it wraps around when the screen width becomes too narrow */
+@media screen and (max-width: 618px) {
+    .header ul {
+        flex-wrap: wrap;
+        width: 95%;
+    }
 }

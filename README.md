@@ -55,3 +55,7 @@ https://www.w3schools.com/accessibility/accessibility_semantic_elements.php
 
 Paletton color palette
 https://paletton.com/#uid=13v0u0k++DlwxZIXe+V+Ws9+flV
+
+# License
+
+MIT License

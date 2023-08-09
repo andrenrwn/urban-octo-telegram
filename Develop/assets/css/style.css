@@ -15,7 +15,7 @@ p {
     font-size: medium;
 }
 
-/* Navigation header section */
+/* Navigation header section contains the company logo and menu items */
 .header {
     display: flex;
     padding: 20px;
@@ -54,7 +54,7 @@ p {
     margin-left: 25px;
 }
 
-/* Menu item link are not underlined */
+/* Menu item links are not underlined by default */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -65,19 +65,32 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Website main image */
+/* Website main hero image */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting-lowq.jpg");
+    background-image: url("../images/digital-marketing-meeting-lowq.jpg"); /* use -lowq quality image for faster loading */
     background-size: cover;
     background-position: center;
 }
 
-/* Main content sections */
+/* .maincontainer contains .content and .benefit sections for better positioning control */
 
-/* Main content section alignment options */
+/* Main content container */
+.maincontainer {
+    display: flex;
+    padding: 0px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* Main content section card image alignment options */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -86,13 +99,6 @@ a:hover {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-/* Main content container */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 /* Main sections */
@@ -119,6 +125,7 @@ a:hover {
 /* Benefits sidebar */
 .benefits {
     margin-right: 20px;
+    margin-left: 10px;
     padding: 20px;
     clear: both;
     float: right;
@@ -161,9 +168,20 @@ a:hover {
 }
 
 /* Increase the width of the benefits section if it wraps around when the screen width becomes too narrow */
-@media screen and (max-width: 816px) {
+@media screen and (max-width: 915px) {
+    .maincontainer {
+        flex-direction: column;
+    }
+    .content {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .benefits {
-        width: 95%;
+        width: auto;
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
@@ -178,7 +196,7 @@ a:hover {
     }
 }
 
-/* Website main image */
+/* Increase hero image quality for high resolution screens */
 @media screen and (min-width: 1900px) {
     .hero {
         background-image: url("../images/digital-marketing-meeting.jpg");

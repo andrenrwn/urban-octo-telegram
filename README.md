@@ -3,8 +3,8 @@
 ## Description
 This website is a UTA Bootcamp assignment for Week 1.
 
-1. This website refactors all <div> elements into semantic HTML5 elements.
-   Semantic HTML5 elements are tags with more concise meanings (ie. <article>, <nav>, <section>, etc)
+1. This website refactors all &lt;div&gt; elements into semantic HTML5 elements.
+   Semantic HTML5 elements are tags with more concise meanings (ie. &lt;article&gt;, &lt;nav&gt;, &lt;section&gt;, etc)
 
 2. This website is refactored to follow a logical structure
 
@@ -30,11 +30,13 @@ https://courses.bootcampspot.com/courses/4010/assignments/59469?module_item_id=1
 
 ![Horiseon website screenshot](/stitched-screenshot.png "Horiseon website screenshot")
 
-## v0.0
+## Versions
+
+### v0.0
 
 Initial copy from starter code
 
-## v1.0
+### v1.0
 
 This update adds:
 - HTML semantic tags in HTML5.
@@ -42,11 +44,14 @@ This update adds:
 - changed colors contrast for the .benefits class, per recommendation from Accessibility Insights for Web chrome plugin
   colors inspired by paletton.com
 
-## v1.1
+### v1.1
 
-- Added reactive elements
+- Added responsive website features for small to large screens
+- Faster lo
 
+### v1.2
 
+- Refine README.md
 
 # References
 

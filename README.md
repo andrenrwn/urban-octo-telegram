@@ -1,6 +1,22 @@
 # Week 1 Challenge Website
+
+## Description
 This website is a UTA Bootcamp assignment for Week 1.
 
+1. This website refactors all <div> elements into semantic HTML5 elements.
+   Semantic HTML5 elements are tags with more concise meanings (ie. <article>, <nav>, <section>, etc)
+
+2. This website is refactored to follow a logical structure
+
+3. Image elements shall be marked with alt tags, except non-essential images, which should be tagged with empty alt tags (alt="").
+   This is done so screen readers for users with disability only read out essential images, and skip decorative images (ie. icons, etc).
+
+4. Heading attributes shall be in sequential order
+
+5. The title element has a concise, descriptive title.
+
+
+## Submission links
 Submitted deployed website access link:
 https://andrenrwn.github.io/urban-octo-telegram/Develop/
 
@@ -10,28 +26,9 @@ https://github.com/andrenrwn/urban-octo-telegram/blob/main/stitched-screenshot.p
 Source:
 https://courses.bootcampspot.com/courses/4010/assignments/59469?module_item_id=1040233
 
-## User Story
-+ AS A marketing agency
-+ I WANT a codebase that follows accessibility standards
-+ SO THAT our own site is optimized for search engines
+## Screenshot
 
-## Acceptance Criteria
-+ GIVEN a webpage meets accessibility standards
-
-+ WHEN I view the source code
-+ THEN I find semantic HTML elements
-
-+ WHEN I view the structure of the HTML elements
-+ THEN I find that the elements follow a logical structure independent of styling and positioning
-
-+ WHEN I view the image elements
-+ THEN I find accessible alt attributes
-
-+ WHEN I view the heading attributes
-+ THEN they fall in sequential order
-
-+ WHEN I view the title element
-+ THEN I find a concise, descriptive title
+![Horiseon website screenshot](/stitched-screenshot.png "Horiseon website screenshot")
 
 ## v0.0
 
@@ -44,6 +41,12 @@ This update adds:
 - help improve the accessibility of the website to special needs, for example: screen readers
 - changed colors contrast for the .benefits class, per recommendation from Accessibility Insights for Web chrome plugin
   colors inspired by paletton.com
+
+## v1.1
+
+- Added reactive elements
+
+
 
 # References
 

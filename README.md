@@ -47,7 +47,7 @@ This update adds:
 ### v1.1
 
 - Added responsive website features for small to large screens
-- Faster lo
+- Changed image quality for quicker load times
 
 ### v1.2
 
